@@ -4,6 +4,9 @@ Unity를 사용하지 않는 독립적인 JavaScript 게임입니다. 한국어 
 
 ## 실행
 
+[최신 실행 파일과 소스 다운로드](https://github.com/kosang02/-/releases/tag/v2.1.0)
+
+
 - 단일 파일: `dokdo-korean.html`을 최신 Chrome, Edge, Firefox, Safari로 열기. 파일을 내려받아 브라우저로 여세요. WebGL이 필요합니다.
 - 소스: 이 폴더에서 `python3 -m http.server 8080 --directory dist`를 실행하고 `http://localhost:8080` 열기.
 - 검사: Node.js 20 이상에서 `npm test`.
