@@ -1,0 +1,9 @@
+node_modules/
+.openai/
+artifacts/
+*.log
+*.tmp
+.DS_Store
+/*.png
+__pycache__/
+*.pyc
