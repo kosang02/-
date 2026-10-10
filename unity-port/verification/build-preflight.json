@@ -1,0 +1,1 @@
+{"status": "blocked", "reason": "Unity Editor is not installed or --editor was not supplied. Install Editor plus WebGL Build Support using Unity Hub and activate a license on the build machine.", "webglBuilt": false}

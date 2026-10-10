@@ -1,5 +1,7 @@
 # 독도까지 · 한국어 웹 재구성
 
+> `unity-web-port` 브랜치에는 [Unity WebGL 포팅 준비 코드와 검사 기록](unity-port/README.md)이 추가되어 있습니다. **Unity 웹 빌드는 아직 미완료**이며, 아래 안내는 기존 JavaScript 재구성판에 관한 내용입니다.
+
 Unity를 사용하지 않는 독립적인 JavaScript 게임입니다. 한국어 메뉴, 한글 음절 11,172자를 포함한 Noto Sans KR 글꼴, Three.js 렌더러를 로컬에 포함합니다. 외부 API, 계정, CDN이 필요하지 않습니다.
 
 ## 실행
