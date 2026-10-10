@@ -4,7 +4,9 @@ Unity를 사용하지 않는 독립적인 JavaScript 게임입니다. 한국어 
 
 ## 실행
 
-[최신 실행 파일과 소스 다운로드](https://github.com/kosang02/-/releases/tag/v2.1.0)
+[게임 다운로드 (ZIP)](https://github.com/kosang02/-/raw/refs/heads/main/downloads/dokdo-korean.zip) · [전체 소스 다운로드 (ZIP)](https://github.com/kosang02/-/raw/refs/heads/main/downloads/dokdo-korean-source.zip)
+
+게임 ZIP을 풀고 `dokdo-korean.html`을 브라우저로 열면 됩니다.
 
 
 - 단일 파일: `dokdo-korean.html`을 최신 Chrome, Edge, Firefox, Safari로 열기. 파일을 내려받아 브라우저로 여세요. WebGL이 필요합니다.

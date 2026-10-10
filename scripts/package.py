@@ -34,6 +34,6 @@ html+='\n<!-- Third-party licenses\n'+(ROOT/'THREE-LICENSE.txt').read_text()+'\n
 (OUT/'dokdo-korean.html').write_text(html)
 with zipfile.ZipFile(OUT/'dokdo-korean-source.zip','w',zipfile.ZIP_DEFLATED) as z:
     for path in ROOT.rglob('*'):
-        if path.is_file() and not (path.suffix=='.png' and path.parent==ROOT) and not any(p in path.parts for p in ['node_modules','.git','.openai','artifacts','__pycache__']):
+        if path.is_file() and not (path.suffix=='.png' and path.parent==ROOT) and not any(p in path.parts for p in ['node_modules','.git','.openai','artifacts','__pycache__','downloads']):
             z.write(path,Path('dokdo-korean')/path.relative_to(ROOT))
 print('HTML:',(OUT/'dokdo-korean.html').stat().st_size,'bytes; ZIP:',(OUT/'dokdo-korean-source.zip').stat().st_size,'bytes')
